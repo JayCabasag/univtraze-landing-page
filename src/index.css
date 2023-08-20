@@ -1,0 +1,12 @@
+@tailwind base;
+@layer base {
+    html {
+      @apply text-[#364D39];
+    }
+}
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
